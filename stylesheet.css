@@ -264,7 +264,7 @@ Module Styles
   left: -9999px;
   right: -9999px;
   margin: auto;
-  min-width: 100%;
+  width: 100%;
 }
 .hero-primary.bg-image > img {
   opacity: 0.55;
