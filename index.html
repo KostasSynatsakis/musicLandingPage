@@ -7,6 +7,9 @@
   <title>title</title>
 
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+  <!-- jQuery -->
+  <script src="scripts/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
@@ -15,22 +18,27 @@
       <a class="logo logo-primary">
         <img src="images/logo.png" alt="Logo">
       </a>
-      <div class="btn btn-primary btn-toggle-menu">Menu</div>
-      <nav class="nav nav-primary">
+      <div class="btn btn-primary btn-toggle-menu" id="menuToggler">Menu</div>
+      <nav class="nav nav-primary" id="mainnav">
         <ul>
-          <li><a href="#" class="btn btn-nav">Home</a></li>
+          <li><a href="#" class="btn btn-nav btn-primary">Home</a></li>
           <li><a href="#" class="btn btn-nav">Concerts</a></li>
           <li><a href="#" class="btn btn-nav">Reviews</a></li>
-          <li><a href="#" class="btn btn-primary">Contact</a></li>
+          <li><a href="#" class="btn btn-nav">Contact</a></li>
         </ul>
-    </nav>
+      </nav>
     </div>
   </header>
 
   <main>
-    <section class="background-secondary">
+    <section class="hero hero-primary bg-image">
+        <img src="images/hero.jpg">
       <div class="container">
-        Hero Primary Content
+        <div class="hero-body">
+          <h1 class="hero-title">Hero Primary Title Content</h1>
+          <h4 class="hero-subtitle">Hero Primary Subtitle Content</h4>
+          <button class="btn">Button Text</button>
+      </div>
       </div>
     </section>
     <section>
@@ -104,6 +112,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>

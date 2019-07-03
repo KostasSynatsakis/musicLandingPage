@@ -157,7 +157,7 @@ Module Styles
 
 /*Header Modules*/
 .header-primary {
-  background: #9B8579;
+  background: #2c3531;
   text-align: center;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -169,8 +169,8 @@ Module Styles
   display: inline-block;
 }
 .logo-primary {
-  width: 64px;
-  height: 64px;
+  width: 78px;
+  height: 84px;
 }
 .logo-primary img {
   height: 100%;
@@ -193,6 +193,54 @@ Module Styles
   }
 }
 
+/*Hero Modules*/
+.hero {
+  text-align: center;
+}
+.hero-primary {
+  background-color: #594a42;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.hero-title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 2.625em;
+}
+.hero-subtitle {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 1.500em;
+  font-weight: normal;
+}
+.hero-subtitle + button {
+  margin-top: 25px;
+}
+
+/*Background Modules*/
+.bg-image  {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.bg-image > img {
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+  min-width: 100%;
+}
+.hero-primary.bg-image > img {
+  opacity: 0.55;
+}
+.hero-body {
+  position: relative;
+}
+
+/* Footer modules */
 .footer-last-container{
   border-top: 1px solid white;
 }
