@@ -1,0 +1,18 @@
+.mask {
+    position: relative;
+    &:before {
+        // this is the mask layer
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        content: ""; /* appear in the browser. */
+    }
+}
+.mask-primary {
+    &:before {
+        background: $light;
+        opacity: 0.6;
+    }
+}

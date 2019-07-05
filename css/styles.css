@@ -489,6 +489,27 @@ Layout Styles
 .hero-body {
   position: relative; }
 
+.frame {
+  overflow: hidden;
+  /* hide the edges of any image larger than the .frame. */ }
+
+.frame-primary {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin: 25px auto 40px auto;
+  /* center */ }
+  .frame-primary img {
+    height: 100%; }
+  @media only screen and (min-width: 48em) {
+    .frame-primary {
+      width: 355px;
+      height: 355px;
+      border-radius: 177.5px;
+      position: relative;
+      top: -30px;
+      margin: 0 auto; } }
+
 /*Button Modules*/
 .btn {
   display: inline-block;
@@ -676,6 +697,21 @@ Layout Styles
 @media (min-width: 48em) {
   .nav-primary {
     display: block; } }
+
+.mask {
+  position: relative; }
+  .mask:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    /* appear in the browser. */ }
+
+.mask-primary:before {
+  background: #d9b08c;
+  opacity: 0.6; }
 
 /***************************
 ****************************
