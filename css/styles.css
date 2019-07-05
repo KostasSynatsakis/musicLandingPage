@@ -553,10 +553,12 @@ Layout Styles
 .header-primary {
   background: #2c3531;
   text-align: center;
-  padding-top: 18px;
-  padding-bottom: 18px; }
+  padding-top: 20px;
+  padding-bottom: 16px; }
   @media only screen and (min-width: 48em) {
     .header-primary {
+      padding-bottom: 0px;
+      border-bottom: 1px solid white;
       background: none;
       position: absolute;
       z-index: 99;
@@ -621,6 +623,7 @@ Layout Styles
   @media only screen and (min-width: 48em) {
     .logo-primary {
       width: auto;
+      height: 80px;
       float: left; } }
 
 .logo-primary img {
@@ -661,9 +664,10 @@ Layout Styles
       float: right;
       width: 60%;
       text-align: right;
-      margin-top: 20px; }
+      margin-top: 30px; }
       .nav-primary li {
-        display: inline-block; } }
+        display: inline-block;
+        border-right: 1px solid white; } }
 
 @media (min-width: 48em) {
   .nav-primary {
