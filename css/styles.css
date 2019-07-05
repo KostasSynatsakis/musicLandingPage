@@ -1,3 +1,4 @@
+/* color palette */
 /* 768px / 16px = 48em */
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -383,7 +384,7 @@ Base Styles
 ****************************
 ***************************/
 body {
-  color: #414042;
+  color: #2c3531;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: normal; }
 
@@ -391,7 +392,7 @@ h1, h2, h3 {
   font-weight: bold; }
 
 a {
-  color: #8dc63f;
+  color: #116466;
   font-weight: bold; }
 
 a:hover {
