@@ -18,13 +18,17 @@
     border-color: #116466;
     color: white;
   }
-  .btn-primary:hover{
+  .btn-primary:active{
     background: none;
     border-color: white;
     text-decoration: none;
   }
   .btn-nav {
     color: white;
+  }
+  .btn-nav:hover{
+    font-size: 1.6em;
+    text-decoration: none;
   }
   .btn-hero {
     background: none;
@@ -45,8 +49,8 @@
   }
   .btn-toggle-menu {
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: $gutter;
+    left: 15px;
   }
   
   @media (min-width: 48em) {
