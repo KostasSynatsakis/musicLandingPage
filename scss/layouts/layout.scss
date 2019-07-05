@@ -1,3 +1,6 @@
+$gutter: 30px;
+$gutter-margin: ($gutter / 2);
+
 /***************************
 ****************************
 Layout Styles
@@ -16,9 +19,10 @@ Layout Styles
     It sets the margins to auto center the container on the screen.
     It sets max-width:1170px, because when you add the left and right padding with the max-width, 
       you get 1200px which is our large device breakpoint. */
-  .row { /* Since the .container has a padding of 15px, we add a margin of -15px to the .row to make it flush with the .container. */
-    margin-right: -15px;
-    margin-left: -15px;
+  .row { 
+    /* Since the .container has a padding of 15px, we add a margin of -15px to the .row to make it flush with the .container. */
+    margin-right: (-$gutter-margin);
+    margin-left: (-$gutter-margin);
   } 
   .row:after { /* clear floats */
     content: "";
@@ -28,8 +32,8 @@ Layout Styles
   [class*='col-'] {
     /* CSS selector that targets all classes that start with .col- */
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: $gutter-margin;
+    padding-right: $gutter-margin;
   }
   
   /* Media Query excludes extra small devices and includes small and above */
@@ -40,23 +44,23 @@ Layout Styles
     }
     /* Column Third */
     .col-1-3 {
-        width: 33.3333%;
+        width: (100% / 3);
     }
     /* Column Two Thirds */
     .col-2-3 {
-        width: 66.6666%;
+        width: (100% / 3.5);
     }
     /* Column Half */
     .col-1-2 {
-        width: 50%;
+        width: (100% / 2);
     }
     /* Column One fourth */
     .col-1-4 {
-        width: 25%;
+        width: (100% / 4);
     }
     /* Column One sixth */
     .col-1-6 {
-        width:16.6666%;
+        width: (100% / 6);
     }
   }
   
