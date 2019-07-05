@@ -1,0 +1,9 @@
+/* Footer modules */
+.footer-last-container{
+    border-top: 1px solid white;
+  }
+  @media only screen and (max-width:47.937em) {
+    .footer-last-container{
+      border-top: 0; /* hide footer bar on mobile view */
+    }
+  }

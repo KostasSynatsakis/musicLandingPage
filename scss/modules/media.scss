@@ -1,0 +1,20 @@
+/*Media Object Module*/
+.media, .media-body {
+    overflow:hidden;
+    /* This will stop the media object's content from wrapping. */
+  }
+  .media {
+    padding: 5% 0; 
+  }
+  .media-item {
+    float:left;
+    margin-right: 1.7em;
+  }
+  .media-item i {
+    color: #2c3531;
+    font-size: 5em;
+  }
+  .media-heading {
+    margin: 0em;
+    font-size: 1.7em;
+  }

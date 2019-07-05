@@ -1,0 +1,16 @@
+/*Navigation Modules*/
+.nav > ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .nav-primary {
+    margin-top: 35px;
+    display: none; /* hide for mobile */
+  }
+  
+  @media (min-width: 48em) {
+    .nav-primary {
+      display: block;
+    }
+  }

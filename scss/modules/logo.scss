@@ -1,0 +1,12 @@
+/*Logo Modules*/
+.logo {
+    overflow: hidden; /* Mask the logo on mobile view*/
+    display: inline-block;
+  }
+  .logo-primary {
+    width: 78px;
+    height: 84px;
+  }
+  .logo-primary img {
+    height: 100%;
+  }
