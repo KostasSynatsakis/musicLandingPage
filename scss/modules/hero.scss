@@ -6,6 +6,9 @@
     background-color: #2c3531;
     color: white;
     padding: 7%;
+    @include small-and-above {
+      padding-top: 150px;
+  }
   }
   .hero-title {
     margin-top: 25px;

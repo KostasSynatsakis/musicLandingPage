@@ -7,6 +7,15 @@
   .nav-primary {
     margin-top: 35px;
     display: none; /* hide for mobile */
+    @include small-and-above {
+      float: right;
+      width: 60%;
+      text-align: right;
+      margin-top: 20px;
+      li {
+        display: inline-block;
+    }
+    }
   }
   
   @media (min-width: 48em) {

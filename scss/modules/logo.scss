@@ -6,6 +6,12 @@
   .logo-primary {
     width: 78px;
     height: 84px;
+    @include small-and-above {
+      width: auto;
+      // height: 50px;
+      float: left;
+    }
+
   }
   .logo-primary img {
     height: 100%;
