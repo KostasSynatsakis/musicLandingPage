@@ -7,8 +7,8 @@ Layout Styles
 ****************************
 ***************************/
 .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: $gutter-margin;
+    padding-left: $gutter-margin;
     margin-right: auto;
     margin-left: auto;
     max-width: 1170px;
@@ -48,7 +48,7 @@ Layout Styles
     }
     /* Column Two Thirds */
     .col-2-3 {
-        width: (100% / 3.5);
+        width: (100% / 1.5);
     }
     /* Column Half */
     .col-1-2 {

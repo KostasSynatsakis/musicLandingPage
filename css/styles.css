@@ -444,7 +444,7 @@ Layout Styles
     width: 33.33333%; }
   /* Column Two Thirds */
   .col-2-3 {
-    width: 28.57143%; }
+    width: 66.66667%; }
   /* Column Half */
   .col-1-2 {
     width: 50%; }
@@ -478,7 +478,11 @@ Layout Styles
   left: -9999px;
   right: -9999px;
   margin: auto;
-  width: 100%; }
+  height: 100%; }
+  @media only screen and (min-width: 48em) {
+    .bg-image > img {
+      height: unset;
+      width: 100%; } }
 
 .hero-primary.bg-image > img {
   opacity: 0.55; }
@@ -488,6 +492,24 @@ Layout Styles
 
 .hero-body {
   position: relative; }
+
+.media-featured > .featured-image > img {
+  width: 100%; }
+
+.featured-image {
+  border-top: 8px solid; }
+  .featured-image.featured-image-1 {
+    border-top-color: #ffa34d; }
+    .featured-image.featured-image-1 .tab {
+      background-color: #ffa34d; }
+  .featured-image.featured-image-2 {
+    border-top-color: #d9b08c; }
+    .featured-image.featured-image-2 .tab {
+      background-color: #d9b08c; }
+  .featured-image.featured-image-3 {
+    border-top-color: #116466; }
+    .featured-image.featured-image-3 .tab {
+      background-color: #116466; }
 
 .frame {
   overflow: hidden;
@@ -655,7 +677,7 @@ Layout Styles
   height: 100%; }
 
 /*Media Object Module*/
-.media, .media-body {
+.media, .media-body, .media-featured {
   overflow: hidden;
   /* This will stop the media object's content from wrapping. */ }
 
@@ -673,6 +695,16 @@ Layout Styles
 .media-heading {
   margin: 0em;
   font-size: 1.7em; }
+
+.media-featured .media-body {
+  padding: 5%; }
+
+.tab {
+  position: absolute;
+  display: inline-block;
+  color: white;
+  padding: 15px;
+  font-weight: bold; }
 
 /*Navigation Modules*/
 .nav > ul {
@@ -719,16 +751,13 @@ Theme Styles
 ****************************
 ***************************/
 .background-primary {
-  background: #F7941E;
-  /*Orange*/ }
+  background: #3b3b3b; }
 
 .background-secondary {
-  background: #00AEEF;
-  /*Blue*/ }
+  background: #235152; }
 
 .background-tertiary {
-  background: #8DC63F;
-  /*Green*/ }
+  background: #126264; }
 
 .background-quinary {
   background: #d1e8e2; }

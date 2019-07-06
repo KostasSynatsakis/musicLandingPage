@@ -1,5 +1,5 @@
 /*Media Object Module*/
-.media, .media-body {
+.media, .media-body, .media-featured {
     overflow:hidden;
     /* This will stop the media object's content from wrapping. */
   }
@@ -17,4 +17,16 @@
   .media-heading {
     margin: 0em;
     font-size: 1.7em;
+  }
+  .media-featured {
+    .media-body {
+      padding: 5%;
+    }
+  }
+  .tab {
+    position: absolute;
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
   }

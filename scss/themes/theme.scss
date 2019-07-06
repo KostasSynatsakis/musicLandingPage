@@ -1,19 +1,24 @@
+$primary: #3b3b3b !default;
+$secondary: #235152 !default;
+$tetriary: #126264 !default;
+$quinary: #d1e8e2 !default;
+
 /***************************
 ****************************
 Theme Styles
 ****************************
 ***************************/
 .background-primary {
-    background: #F7941E; /*Orange*/
+    background: $primary; 
   }
   .background-secondary {
-    background: #00AEEF; /*Blue*/
+    background: $secondary; 
   }
   .background-tertiary {
-    background: #8DC63F; /*Green*/
+    background: $tetriary; 
   }
   .background-quinary {
-    background: #d1e8e2;
+    background: $quinary;
 }
 
   /* color palette */
