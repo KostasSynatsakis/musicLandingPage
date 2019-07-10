@@ -555,6 +555,7 @@ Layout Styles
   width: 200px;
   height: 200px;
   border-radius: 100px;
+  border: 10px solid #d1e8e2;
   margin: 25px auto 40px auto;
   /* center */ }
   .frame-primary img {
@@ -564,15 +565,17 @@ Layout Styles
       width: 230px;
       height: 230px;
       border-radius: 115px;
+      border: 10px solid #d1e8e2;
       position: relative;
-      top: -30px;
+      top: -50px;
       margin: 0 auto; } }
   @media only screen and (min-width: 62em) {
     .frame-primary {
       /* devices that are larger than iPad. */
       width: 300px;
       height: 300px;
-      border-radius: 150px; } }
+      border-radius: 150px;
+      border: 10px solid #d1e8e2; } }
 
 /*Button Modules*/
 .btn {
@@ -714,12 +717,12 @@ Layout Styles
   display: inline-block; }
 
 .logo-primary {
-  width: 78px;
+  width: 84px;
   height: 84px; }
   @media only screen and (min-width: 48em) {
     .logo-primary {
       width: auto;
-      height: 55px;
+      height: 44px;
       margin-right: auto;
       /* In a Flexbox container, a margin set to auto will absorb the extra space. This is why the logo pulls to the left side of the container. */ } }
   @media only screen and (min-width: 62em) {
@@ -729,9 +732,12 @@ Layout Styles
 .logo-primary img {
   height: 100%; }
 
+.logo:hover {
+  overflow: unset; }
+
 .logo-primary img:hover {
   height: 110%;
-  transition: all 0.3s  ease-in-out 0s; }
+  transition: all 0.3s ease 0s; }
 
 /*Media Object Module*/
 .media, .media-body, .media-featured {
@@ -799,8 +805,8 @@ Layout Styles
     /* appear in the browser. */ }
 
 .mask-primary:before {
-  background: #d9b08c;
-  opacity: 0.6; }
+  background: #ffcb9a;
+  opacity: 0.4; }
 
 /***************************
 ****************************

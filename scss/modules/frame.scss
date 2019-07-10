@@ -10,7 +10,7 @@
     @include small-and-above {
         @include circle(230px);
         position: relative;
-        top: -30px;
+        top: -50px;
         margin: 0 auto;
     }
     @include medium-and-above { /* devices that are larger than iPad. */
