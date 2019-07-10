@@ -14,6 +14,6 @@
         margin: 0 auto;
     }
     @include medium-and-above { /* devices that are larger than iPad. */
-        @include circle(355px);
+        @include circle(300px);
     }
 }

@@ -44,13 +44,14 @@
   @media (min-width: 48em) {
     .btn-nav,
     .btn-primary{
-      font-size: 1.125em;
+      font-size: 1.1em;
     }
   }
   .btn-toggle-menu {
     position: absolute;
     top: $gutter;
     left: 15px;
+    font-size: 1em;
   }
   
   @media (min-width: 48em) {

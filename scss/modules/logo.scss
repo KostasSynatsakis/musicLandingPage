@@ -8,11 +8,18 @@
     height: 84px;
     @include small-and-above {
       width: auto;
-      height: 80px;
+      height: 55px;
       margin-right: auto; /* In a Flexbox container, a margin set to auto will absorb the extra space. This is why the logo pulls to the left side of the container. */
+    }
+    @include medium-and-above {
+      height: 80px;
     }
 
   }
   .logo-primary img {
     height: 100%;
+  }
+  .logo-primary img:hover {
+    height: 110%;
+    transition: all 0.3s ease 0s; 
   }
