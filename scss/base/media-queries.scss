@@ -1,6 +1,7 @@
 // Using !default defines the variable with that value unless it has already been assigned. 
 
 $mq-1: 48em !default; /* 768px / 16px = 48em */
+$mq-2: 62em !default;
 
 @mixin extra-small-only {
     @media only screen and (max-width : $mq-1 - 0.0625) {
@@ -14,3 +15,9 @@ $mq-1: 48em !default; /* 768px / 16px = 48em */
         @content;
     }
 }
+
+@mixin medium-and-above {
+    @media only screen and (min-width : $mq-2) {
+     @content;
+    }
+   }

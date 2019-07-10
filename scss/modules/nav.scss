@@ -8,9 +8,6 @@
     margin-top: 35px;
     display: none; /* hide for mobile */
     @include small-and-above {
-      float: right;
-      width: 60%;
-      text-align: right;
       margin-top: 15px;
       li {
         display: inline-block;

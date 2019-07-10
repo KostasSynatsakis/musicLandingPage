@@ -4,16 +4,22 @@
     text-align: center;
     padding-top: 20px;
     padding-bottom: 16px;
+    
     @include small-and-above {
       &:after {
         content: "";
         display: table;
         clear: both;
     }
+    
     padding-bottom: 0px;
     background:none;
     position: absolute;
     z-index: 99;
     width: 100%;
+
+    .container {
+      @include flexbox-display();
+    }
     }
   }
