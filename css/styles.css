@@ -589,7 +589,7 @@ Layout Styles
   padding: 12px 30px;
   font-size: 1.313em;
   font-weight: bold;
-  border-radius: 7px;
+  border-radius: 30px;
   transition: all 0.3s ease 0s; }
 
 .btn-primary {
@@ -727,7 +727,7 @@ Layout Styles
       /* In a Flexbox container, a margin set to auto will absorb the extra space. This is why the logo pulls to the left side of the container. */ } }
   @media only screen and (min-width: 62em) {
     .logo-primary {
-      height: 80px; } }
+      height: 70px; } }
 
 .logo-primary img {
   height: 100%; }

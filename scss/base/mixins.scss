@@ -20,5 +20,6 @@
     -webkit-flex:  $values;
     -ms-flex:  $values;
     flex:  $values;
+    // The attribute flex: is a combination of flex-grow, flex-shrink, and flex-basis.
     // The default is flex: 0 1 auto;.
 }
