@@ -543,9 +543,9 @@ Layout Styles
     .featured-image.featured-image-2 .tab {
       background-color: #d9b08c; }
   .featured-image.featured-image-3 {
-    border-top-color: #116466; }
+    border-top-color: #fcbf00; }
     .featured-image.featured-image-3 .tab {
-      background-color: #116466; }
+      background-color: #fcbf00; }
 
 .frame {
   overflow: hidden;
@@ -658,7 +658,7 @@ footer {
           padding: 0 8px 0 8px; }
   footer .footer-last-container {
     border-top: 1px solid white;
-    font-size: 0.8em; }
+    font-size: 0.6em; }
     footer .footer-last-container [class*='col-'] {
       padding-bottom: 0px; }
   @media only screen and (max-width: 47.937em) {
@@ -833,7 +833,7 @@ footer {
     /* appear in the browser. */ }
 
 .mask-primary:before {
-  background: #ffcb9a;
+  background: #fcbf00;
   opacity: 0.4; }
 
 /***************************

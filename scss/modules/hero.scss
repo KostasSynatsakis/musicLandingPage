@@ -3,7 +3,7 @@
     text-align: center;
   }
   .hero-primary {
-    background-color: #2c3531;
+    background-color: $dark;
     color: white;
     padding: 7%;
     @include small-and-above {
@@ -26,10 +26,10 @@
   }
   .hero-secondary {
     height: 28.750em;
-    background-color: #2c3531;
+    background-color: $dark;
     color: white;
     padding: 10%;
-    text-shadow: 0px 0px 15px #2c3531;
+    text-shadow: 0px 0px 15px $dark;
   }
   .hero-secondary-title {
     font-size: 2em;
