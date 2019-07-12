@@ -635,6 +635,9 @@ Layout Styles
     display: none; } }
 
 /* Footer modules */
+footer {
+  color: white; }
+
 .footer-last-container {
   border-top: 1px solid white; }
 
@@ -724,7 +727,8 @@ Layout Styles
       width: auto;
       height: 44px;
       margin-right: auto;
-      /* In a Flexbox container, a margin set to auto will absorb the extra space. This is why the logo pulls to the left side of the container. */ } }
+      /* In a Flexbox container, a margin set to auto will absorb the extra space. 
+      This is why the logo pulls to the left side of the container. */ } }
   @media only screen and (min-width: 62em) {
     .logo-primary {
       height: 70px; } }
