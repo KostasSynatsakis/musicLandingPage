@@ -636,15 +636,35 @@ Layout Styles
 
 /* Footer modules */
 footer {
-  color: white; }
-
-.footer-last-container {
-  border-top: 1px solid white; }
-
-@media only screen and (max-width: 47.937em) {
-  .footer-last-container {
-    border-top: 0;
-    /* hide footer bar on mobile view */ } }
+  color: #d1e8e2;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  footer a {
+    color: #25d7da; }
+  footer .container {
+    padding-top: 10px;
+    text-align: center; }
+    footer .container [class*='col-'] {
+      padding-top: 5px;
+      padding-bottom: 5px; }
+      footer .container [class*='col-'] picture {
+        width: 70%; }
+      footer .container [class*='col-'] i {
+        color: #25d7da; }
+      footer .container [class*='col-'].footer-social {
+        padding-top: 10px; }
+        footer .container [class*='col-'].footer-social i {
+          font-size: 1.3em;
+          padding: 0 8px 0 8px; }
+  footer .footer-last-container {
+    border-top: 1px solid white;
+    font-size: 0.8em; }
+    footer .footer-last-container [class*='col-'] {
+      padding-bottom: 0px; }
+  @media only screen and (max-width: 47.937em) {
+    footer .footer-last-container {
+      border-top: 0;
+      /* hide footer bar on mobile view */ } }
 
 /*Header Modules*/
 .header-primary {
@@ -735,6 +755,10 @@ footer {
 
 .logo-primary img {
   height: 100%; }
+
+.logo-secondary {
+  margin: 5px auto;
+  width: 70%; }
 
 .logo:hover {
   overflow: unset; }

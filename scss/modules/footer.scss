@@ -1,12 +1,44 @@
 /* Footer modules */
 footer {
-  color: white;
-}
-.footer-last-container{
-    border-top: 1px solid white;
+  color: $tan;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  a {
+    color: $blue;
   }
-  @media only screen and (max-width:47.937em) {
-    .footer-last-container{
-      border-top: 0; /* hide footer bar on mobile view */
+  .container {
+    padding-top: 10px;
+    text-align: center;
+    // line-height: 1.6em;
+
+    [class*='col-'] {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      picture {
+        width: 70%;
+      }
+      i {
+        color: $blue;
+      }
+      &.footer-social{
+        padding-top: 10px;
+        i {
+          font-size: 1.3em;
+          padding: 0 8px 0 8px;
+        }
+      }
     }
   }
+  .footer-last-container{
+      border-top: 1px solid white;
+      font-size: 0.8em;
+      [class*='col-'] {
+        padding-bottom: 0px;
+      }
+    }
+    @media only screen and (max-width:47.937em) {
+      .footer-last-container{
+        border-top: 0; /* hide footer bar on mobile view */
+      }
+    }
+}
