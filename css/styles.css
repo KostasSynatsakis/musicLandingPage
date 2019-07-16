@@ -659,6 +659,7 @@ Layout Styles
         display: flex; } }
 
 .circle-section {
+  padding: 5px auto;
   font-size: 1.2em;
   font-style: italic;
   letter-spacing: .06em; }
