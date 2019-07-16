@@ -1,4 +1,28 @@
 /*Media Object Module*/
+.media-section-container{
+  padding-right: 0px; 
+  padding-left: 0px; 
+  @include small-and-above {
+    padding-right: unset;
+    padding-left: unset;
+  }
+}
+.media-section-header {
+  border-top: 1px solid $dark;
+  border-bottom: 1px solid $dark;
+  margin-bottom: 15px;
+  .media-header {
+    color: $brown;
+    font-size: 2.2em;
+    text-align: center;
+    margin-block-start: .2em;
+    margin-block-end: .2em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: .2em;
+  }
+}
 .media, .media-body, .media-featured {
     overflow:hidden;
     /* This will stop the media object's content from wrapping. */

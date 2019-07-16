@@ -385,7 +385,7 @@ Base Styles
 ***************************/
 body {
   color: #2c3531;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal; }
 
 h1, h2, h3 {
@@ -783,6 +783,29 @@ footer {
   transition: all 0.3s ease 0s; }
 
 /*Media Object Module*/
+.media-section-container {
+  padding-right: 0px;
+  padding-left: 0px; }
+  @media only screen and (min-width: 48em) {
+    .media-section-container {
+      padding-right: unset;
+      padding-left: unset; } }
+
+.media-section-header {
+  border-top: 1px solid #2c3531;
+  border-bottom: 1px solid #2c3531;
+  margin-bottom: 15px; }
+  .media-section-header .media-header {
+    color: #803e00;
+    font-size: 2.2em;
+    text-align: center;
+    margin-block-start: .2em;
+    margin-block-end: .2em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: .2em; }
+
 .media, .media-body, .media-featured {
   overflow: hidden;
   /* This will stop the media object's content from wrapping. */ }
