@@ -28,6 +28,9 @@ footer {
         }
       }
     }
+    @include small-and-above {
+      text-align: left;
+    }
   }
   .footer-last-container{
       border-top: 1px solid white;

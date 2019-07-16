@@ -656,6 +656,9 @@ footer {
         footer .container [class*='col-'].footer-social i {
           font-size: 1.3em;
           padding: 0 8px 0 8px; }
+    @media only screen and (min-width: 48em) {
+      footer .container {
+        text-align: left; } }
   footer .footer-last-container {
     border-top: 1px solid white;
     font-size: 0.6em; }
