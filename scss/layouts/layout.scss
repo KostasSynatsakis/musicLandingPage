@@ -7,6 +7,8 @@ Layout Styles
 ****************************
 ***************************/
 .container {
+    padding-top: $gutter;
+    padding-bottom: $gutter;
     padding-right: $gutter-margin;
     padding-left: $gutter-margin;
     margin-right: auto;
