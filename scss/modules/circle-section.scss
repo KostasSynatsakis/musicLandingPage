@@ -1,0 +1,12 @@
+.circle-section {
+    font-size: 1.2em;
+    font-style: italic;
+    letter-spacing: .06em;
+    .circle-section-heading {
+        color: $semi-dark;
+    }
+    .circle-section-text{
+        color: $dark;
+        font-weight: normal;
+    }
+}

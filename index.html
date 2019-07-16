@@ -16,23 +16,24 @@
   <!-- modernizr -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   <!-- picturefill support for <picture> element-->
-      <script>
-          // Picture element HTML5 shiv
-          document.createElement( "picture" );
-      </script>
+  <script>
+    // Picture element HTML5 shiv
+    document.createElement("picture");
+  </script>
   <script src="scripts/picturefill.js" async></script>
 </head>
 
 <body>
+  <!-- header -->
   <header class="header-primary">
     <div class="container">
       <a class="logo logo-primary" href="#">
-          <picture>
-              <!--[if IE 9]><video style="display: none;"><![endif]-->
-                  <source type="image/svg+xml" srcset="images/logo.svg">
-              <!--[if IE 9]></video><![endif]-->
-              <img src="images/logo.png">
-          </picture>
+        <picture>
+          <!--[if IE 9]><video style="display: none;"><![endif]-->
+          <source type="image/svg+xml" srcset="images/logo.svg">
+          <!--[if IE 9]></video><![endif]-->
+          <img src="images/logo.png">
+        </picture>
       </a>
       <div class="btn btn-primary btn-toggle-menu" id="menuToggler">Menu</div>
       <nav class="nav nav-primary" id="mainnav">
@@ -45,8 +46,12 @@
       </nav>
     </div>
   </header>
+  <!-- /header -->
 
+  <!-- main -->
   <main>
+
+    <!-- hero -->
     <section class="hero hero-primary bg-image">
       <img src="images/hero.jpg">
       <div class="container">
@@ -57,24 +62,30 @@
         </div>
       </div>
     </section>
-    <section>
+    <!-- /hero -->
+
+    <!-- circle image section -->
+    <section class="circle-section">
       <div class="container">
         <div class="row flexbox-sm flexbox-sm-row-reverse">
           <div class="col-1-3">
             <div class="frame frame-primary mask mask-primary"><img src="images/jazzman.jpg"></div>
           </div>
           <div class="col-2-3">
-            <h3>Lorem ipsum dolor sit amet</h3>
-            <h5>consectetur adipiscing elit. Nam id ante sem. Pellentesque varius, ligula a vestibulum convallis, nulla
+            <h3 class="circle-section-heading">Lorem ipsum dolor sit amet</h3>
+            <h5 class="circle-section-text">Consectetur adipiscing elit. Nam id ante sem. Pellentesque varius, ligula a
+              vestibulum convallis, nulla
               magna tempus justo, eu lacinia urna mauris a magna. Praesent accumsan, ipsum sed imperdiet egestas, ligula
               orci consectetur augue, vel lacinia quam ligula eu lacus. Pellentesque consectetur non risus nec
               condimentum. Curabitur ante ligula, aliquet a lobortis in, pulvinar non magna. Vestibulum ante ipsum
               primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent convallis scelerisque accumsan.
-              Fusce malesuada sollicitudin porttitor</h5>
+              </h5>
           </div>
         </div>
       </div>
     </section>
+    <!-- /circle image section -->
+
     <section>
       <div class="container">
         <div class="row">
@@ -122,6 +133,7 @@
             </div>
           </div>
     </section>
+
     <section class="hero hero-secondary bg-image">
       <img src="images/hero-testimonial.jpg">
       <div class="container">
@@ -142,6 +154,7 @@
         </div>
       </div>
     </section>
+
     <section class="background-quinary">
       <div class="container">
         <div class="row">
@@ -186,12 +199,12 @@
       <div class="row">
         <div class="col-1-3">
           <div class="logo-secondary">
-              <picture >
-                  <!--[if IE 9]><video style="display: none;"><![endif]-->
-                      <source type="image/svg+xml" srcset="images/logo.svg">
-                  <!--[if IE 9]></video><![endif]-->
-                  <img src="images/logo.png">
-              </picture>
+            <picture>
+              <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source type="image/svg+xml" srcset="images/logo.svg">
+              <!--[if IE 9]></video><![endif]-->
+              <img src="images/logo.png">
+            </picture>
           </div>
         </div>
         <div class="col-1-4">
@@ -205,12 +218,12 @@
           <strong>123 45 67 890</strong>
         </div>
         <div class="col-1-4 footer-social">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-linkedin-in"></i>
-            <i class="fab fa-tripadvisor"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-youtube"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-tripadvisor"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
         </div>
       </div>
     </div>
